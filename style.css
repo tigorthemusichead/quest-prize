@@ -1,0 +1,55 @@
+*{
+    box-sizing: border-box;
+    font-family: Arial;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    margin: 0;
+    padding: 0;
+    font-size: 80px;
+    line-height: 200px;
+    text-align: center;
+}
+
+header{
+    background: rgba(215,199,255,0.64);
+    height: 200px;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: calc(100vh - 200px);
+    min-height: 1000px;
+}
+
+.gift{
+    width: 80%;
+    margin: 0 auto;
+    padding: 50px;
+    background: rgba(215,199,255,0.64);
+    border-radius: 40px;
+    font-size: 25px;
+}
+
+.gift:hover{
+    width: 95%;
+    font-size: 35px;
+}
+
+.gift:hover > h2 {
+    font-size: 50px;
+}
+
+h2{
+    font-size: 40px;
+}
+
+a{
+    color: #273346;
+}
